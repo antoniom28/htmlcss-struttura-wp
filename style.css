@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:deeppink;
+    height: 60px;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 20px;
+}
+
+.main-top{
+    background-color: yellow;
+    height: 240px;
+}
+
+.top{
+    background-color: deepskyblue;
+    height: 25px;
+}
+.left{
+    background-color: deepskyblue;
+    height: 240px;
+    width: 25%;
+    display:inline-block;
+}
+.middle{
+    background-color: deepskyblue;
+    height: 240px;
+    width: 50%;
+    display:inline-block;
+}
+.right{
+    background-color: deepskyblue;
+    height: 240px;
+    width: 20%;
+    display:inline-block;
+}
+
