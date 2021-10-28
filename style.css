@@ -3,6 +3,19 @@
     padding: 0;
     margin: 0;
 }
+
+html,body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+main{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
 header{
     background-color:rgb(240, 52, 183);
     height: 60px;
@@ -11,7 +24,7 @@ header{
 footer{
     background-color: blueviolet;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .main-bottom::after{
@@ -30,8 +43,8 @@ footer{
 
 .main-top{
     background-color: rgb(182, 182, 26);
-    height: 250px;
     margin: 15px 0;
+    flex: 1 1 auto;
 }
 
 .top{
@@ -40,9 +53,9 @@ footer{
 }
 
 .main-bottom div{
-    height: 250px;
     background-color: deepskyblue;
-    float: left;
+height: 250px;
+float:left;
 }
 
 .left{
