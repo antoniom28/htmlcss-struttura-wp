@@ -4,7 +4,7 @@
     margin: 0;
 }
 header{
-    background-color:deeppink;
+    background-color:rgb(240, 52, 183);
     height: 60px;
 }
 
@@ -22,43 +22,41 @@ footer{
 
 .main-bottom{
     
-    border: 8px solid blue;
+    border: 8px solid rgb(0, 95, 184);
     border-left: 0;
     border-right: 0;
    
 }
 
 .main-top{
-    background-color: yellow;
-    height: 240px;
+    background-color: rgb(182, 182, 26);
+    height: 250px;
     margin: 15px 0;
 }
 
 .top{
     background-color: deepskyblue;
-    height: 25px;
+    height: 31px;
 }
-.left{
-    background-color: deepskyblue;
-    height: 240px;
-    width: 25%;
-    float: left;
-}
-.middle{
-    background-color: deepskyblue;
-    height: 240px;
-    width: 50%;
-    float: left;
 
-    border: 8px solid blue;
+.main-bottom div{
+    height: 250px;
+    background-color: deepskyblue;
+    float: left;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 25%;
+}
+
+.middle{
+    width: 50%;
+    border: 8px solid rgb(0, 95, 184);
     border-top: 0;
     border-bottom: 0;
 
 }
-.right{
-    background-color: deepskyblue;
-    height: 240px;
-    width: 25%;
-    float: left;
-}
-
