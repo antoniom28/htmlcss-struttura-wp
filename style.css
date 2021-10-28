@@ -10,7 +10,8 @@ header{
 
 footer{
     background-color: blueviolet;
-    height: 20px;
+    height: 40px;
+    margin-top: 5px;
 }
 
 .main-bottom::after{
@@ -19,16 +20,19 @@ footer{
     clear: both;
 }
 
+.main-bottom{
+    
+    border: 8px solid blue;
+    border-left: 0;
+    border-right: 0;
+   
+}
+
 .main-top{
     background-color: yellow;
     height: 240px;
     margin: 15px 0;
 }
-
-.main-bottom div:nth-of-type(1n+2){
-    border: 5px solid blue;
-}
-
 
 .top{
     background-color: deepskyblue;
@@ -45,6 +49,11 @@ footer{
     height: 240px;
     width: 50%;
     float: left;
+
+    border: 8px solid blue;
+    border-top: 0;
+    border-bottom: 0;
+
 }
 .right{
     background-color: deepskyblue;
