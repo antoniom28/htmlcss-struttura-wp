@@ -5,8 +5,8 @@
 }
 
 html,body{
-    height: 100%;
-    margin: 0;
+    width: 96%;
+    margin: 0 2%;
     display: flex;
     flex-flow: column;
     height: 100%;
