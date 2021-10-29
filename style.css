@@ -19,12 +19,13 @@ main{
 header{
     background-color:rgb(240, 52, 183);
     height: 60px;
+    margin-top: 10px;
 }
 
 footer{
     background-color: blueviolet;
     height: 40px;
-    margin-top: 9px;
+    margin:9px 0px;
 }
 
 .main-bottom::after{
